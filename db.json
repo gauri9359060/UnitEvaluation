@@ -1,0 +1,33 @@
+{
+  "employeeData": [
+    {
+      "name": "gauri",
+      "department": "HR",
+      "gender": "",
+      "role": "HR",
+      "salary": "30000",
+      "id": 1
+    },
+    {
+      "name": "sam",
+      "department": "Marketing",
+      "role": "Teacher",
+      "salary": "40000",
+      "id": 2
+    },
+    {
+      "name": "harry",
+      "department": "Finance",
+      "role": "Lead",
+      "salary": "2000",
+      "id": 3
+    },
+    {
+      "name": "John",
+      "department": "IT",
+      "role": "HR",
+      "salary": "10000",
+      "id": 4
+    }
+  ]
+}

@@ -1,6 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
+import { AuthContext } from '../Contexts/AuthContext'
 
 const NavbarWrapper = styled.nav`
     display:flex;
@@ -22,7 +23,9 @@ const Navbar = () => {
   return (
     <NavbarWrapper>
         <A to="/">Home</A>
-        <A to="/products">Products</A>
+        <A to="/employees">Employees</A>
+        <A to="/Login"><button style={{backgroundColor:"green",padding:20,color:"white",cursor:"pointer"}}>Login</button></A>
+        <A to="/register"><button style={{backgroundColor:"green",padding:20,color:"white",cursor:"pointer"}}>Register</button></A>
     </NavbarWrapper>
   )
 }
